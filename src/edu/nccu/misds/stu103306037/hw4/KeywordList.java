@@ -187,11 +187,11 @@ public class KeywordList {
 		lst.removeAll(lst);
 	}
 
-	public void printAll() {
-		for (int i = 0; i < lst.size(); i++) {
-			Keyword k = lst.get(i);
-			System.out.println(k);
-		}
-	}
+//	public void printAll() {
+//		for (int i = 0; i < lst.size(); i++) {
+//			Keyword k = lst.get(i);
+//			System.out.println(k);
+//		}
+//	}
 
 }
