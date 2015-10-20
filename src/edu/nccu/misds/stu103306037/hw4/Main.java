@@ -85,6 +85,11 @@ public class Main {
 			{
 				kLsit.deleteAll();
 			}
+			
+//			case "printAll":
+//			{
+//				kLsit.printAll();
+//			}
 			default:
 				break;
 			}
