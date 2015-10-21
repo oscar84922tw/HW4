@@ -38,7 +38,7 @@ public class KeywordList {
 		for (int i = 0; i < lst.size(); i++) {
 			Keyword k = lst.get(i);
 			if (k.count == c) {
-				System.out.println(k);
+				System.out.print(k);
 				tmp++;
 			}
 			if (tmp == 0) {
@@ -53,7 +53,7 @@ public class KeywordList {
 		for (int i = 0; i < lst.size(); i++) {
 			Keyword k = lst.get(i);
 			while ((k.name.indexOf(str, fromIdx)) != -1) {
-				System.out.println(k.name);
+				System.out.print(k.name);
 				tmp++;
 				break;
 			}
@@ -84,7 +84,7 @@ public class KeywordList {
 		for (int i = 0; i < lst.size(); i++) {
 			Keyword k = lst.get(i);
 			if (i < n) {
-				System.out.println(k);
+				System.out.print(k);
 				tmp++;
 			}
 		}
