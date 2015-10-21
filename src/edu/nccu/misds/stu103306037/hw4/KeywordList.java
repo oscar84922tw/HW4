@@ -24,7 +24,7 @@ public class KeywordList {
 	}
 
 	public void outputIndex(int c) {
-		if (c < lst.size()) {
+		if (c <= lst.size()) {
 			Keyword k = lst.get(c);
 			System.out.println(k);
 		} else {
@@ -103,7 +103,7 @@ public class KeywordList {
 	}
 
 	public void deleteIndex(int c) {
-		if (c < lst.size()) {
+		if (c <= lst.size()) {
 			lst.remove(c);
 			System.out.println("Done");
 		} else {
@@ -183,9 +183,10 @@ public class KeywordList {
 		}
 	}
 
-	public void deleteAll() {
-		lst.removeAll(lst);
-	}
+//	public void deleteAll() {
+//		lst.removeAll(lst);
+//		System.out.println("");
+//	}
 
 //	public void printAll() {
 //		for (int i = 0; i < lst.size(); i++) {
