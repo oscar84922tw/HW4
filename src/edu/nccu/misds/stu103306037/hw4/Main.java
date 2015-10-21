@@ -81,10 +81,10 @@ public class Main {
 			}
 				break;
 
-			case "deleteAll":
-			{
-				kLsit.deleteAll();
-			}
+//			case "deleteAll":
+//			{
+//				kLsit.deleteAll();
+//			}
 			
 //			case "printAll":
 //			{
